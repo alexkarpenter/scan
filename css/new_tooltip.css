@@ -1,0 +1,54 @@
+.tooltip_sasha
+{
+    text-align: center;
+    background: #fff3c7;
+    position: absolute;
+    z-index: 5000;
+    padding: 8px;
+    font-size: 11px;
+    font-family: arial;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid #ffe38c;
+    -webkit-box-shadow:  0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.tooltip_sasha:after /* triangle decoration */
+{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ffe38c;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+}
+
+.tooltip_sasha.top:after
+{
+    border-top-color: transparent;
+    border-bottom: 10px solid #ffe38c;
+    top: -20px;
+    bottom: auto;
+}
+
+.tooltip_sasha.left:after
+{
+    left: 10px;
+    margin: 0;
+}
+
+.tooltip_sasha.right:after
+{
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+.tooltip_sasha .bg-info
+{
+    background-color: #e2c41b;
+}

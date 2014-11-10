@@ -1,0 +1,128 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.top_padding_5
+{
+    padding-top: 5px;
+}
+.top_padding_15
+{
+    padding-top: 15px;
+}
+.ext_link
+{
+    cursor: pointer;
+}
+.cursor_hand
+{
+    cursor: pointer;
+}
+.wborder
+{
+    border: 1px solid #000000;
+}
+.user_loged
+{
+    color: #31b0d5 !important;
+}
+.user_route_height
+{
+    height: 55px;
+}
+.routes_list
+{
+    height: 300px ;
+    overflow: auto;
+}
+.cell_loading
+{
+    background: url(../img/loading1.gif) no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.open_info_row
+{
+
+}
+.hidden_info_row
+{
+
+}
+.open_info_cell
+{
+
+}
+.hidden_info_cell
+{
+
+}
+.cel_price
+{
+    color: #006dcc;
+    font-size: 16px;
+}
+.best_price
+{
+    background-color: #449d44 !important;
+}
+.best_price .cel_price
+{
+    color: #ffffff;
+}
+.compare_price
+{
+    color: red;
+    font-size: 16px;
+}
+.selected_top_cells
+{
+    border-bottom: 2px solid  #999999 !important;
+}
+.selected_top_cell
+{
+    background-color: #ffffff !important;
+    border: 2px solid #AAAAAA !important;
+    border-bottom-style: none !important;
+}
+.selected_top_cell .cel_price
+{
+    color: #006dcc !important;
+}
+.selected_bottom_cell
+{
+    border: 2px solid #AAAAAA !important;
+    border-top: none !important;
+}
+.txt11px
+{
+    font-family: arial;
+    font-size: 11px;
+    color: #1a1a1a;
+
+}
+#agencies label, #fields label
+{
+    white-space: nowrap;
+}
+.underline
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.top_border
+{
+    border: none;
+    border-top: 1px solid #dddddd;
+    clear: right;
+    padding: 10px 0px 10px 0px;
+}
+.top_border2
+{
+    border: none;
+    border-top: 1px solid #eeeeee;
+    clear: right;
+    padding: 4px 0px 4px 0px;
+}
